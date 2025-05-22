@@ -73,7 +73,7 @@ x <- seq(0,1,length.out = 200)
 y <- seq(0,1,length.out = 200)
 
 # Transformation to z-scale
-# Based on section 7.4 Transformation Two-Dimensional Case in the paper
+# Based on Section A.3: "Transformation Two-Dimensional Case" in the paper
 z1 = qnorm(s1)
 z2 = qnorm(s2)
 

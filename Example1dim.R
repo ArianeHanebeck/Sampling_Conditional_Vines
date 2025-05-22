@@ -105,7 +105,7 @@ DensIntegrate5 = function(vinedistr, u1_int, u3_int,  u4_int,  u5_int){
 }
 
 # Plot to compare the results
-# Transformation based on Section 7.1 Transformation One-Dimensional Case in the paper
+# Transformation based on Section A.1: "Transformation One-Dimensional Case" in the paper
 plot(x, DensIntegrate5(vinecopdist, ucon[1], ucon[3], ucon[4], ucon[5])(x), col = "black", 
      type = "l", lwd = 2, 
      xlab = bquote(u[2]),  ylab = "",
